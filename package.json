@@ -1,0 +1,18 @@
+{
+  "name": "zen-ime",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "dependencies": {
+    "pinyin-pro": "^3.27.0",
+    "uiohook-napi": "^1.5.4"
+  }
+}
